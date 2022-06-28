@@ -148,11 +148,11 @@ about:
   email_title: email
 
 # for schedule layout
-schedule:
-  title: Schedule
-  button_name: Course Schedule
-  sub_title: "BIOE 488"
-  email_title: email
+# schedule:
+#   title: Schedule
+#   button_name: Course Schedule
+#   sub_title: "BIOE 488"
+#   email_title: email
 
 # for links layout
 links:
