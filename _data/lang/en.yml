@@ -101,8 +101,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Announcements
+  button_name: Announcements
   upside_down_tabs:
     tab:
       all: All
@@ -135,16 +135,23 @@ home:
   top_header_line2: "$site_brand"
 
 # for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+# archives:
+#   title: Archive
+#   button_name: Archive
+#   page_header: Archive
 
 # for about layout
 about:
   title: About
-  button_name: About
-  sub_title: "Awesome jekyll theme"
+  button_name: Course Staff
+  sub_title: "BIOE 488"
+  email_title: email
+
+# for schedule layout
+schedule:
+  title: Schedule
+  button_name: Course Schedule
+  sub_title: "BIOE 488"
   email_title: email
 
 # for links layout

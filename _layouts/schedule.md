@@ -4,7 +4,7 @@
 # Licensed under MIT
 
 layout: default
-# About page
+# Links page
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
@@ -12,50 +12,12 @@ layout: default
 {%- assign links_data = page.page_data | default: site.data.content.links[lng].page_data -%}
 
 <div class="multipurpose-container links-heading-container">
-  <h1>{{ links_data.main.header | default: "Links" }}</h1>
+  <h1>Schedule</h1>
   <p>{{ links_data.main.info | default: "No data, check page_data in [language]/tabs/links.md front matter or _data/content/links/[language].yml" }}</p>
-  <!-- <div class="multipurpose-button-wrapper">
-    {%- for category in links_data.category %}
-      <a href="#{{ category.type }}" role="button" class="multipurpose-button link-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
-    {% endfor -%}
-  </div> -->
 </div>
-
-<div class="multipurpose-container link-container" id="{{ category.type }}" style="border-left-color:{{ category.color }};">
-  <h2>Professor</h2>
-  <table>
-    <tbody>
-        <tr>
-          <td>
-            <p>
-              <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=109962&s=300&type=portrait" width="50%" height="50%">
-            </p>
-          </td>
-          </tr>
-          <tr>
-          <td>
-            <p>
-              <a href="https://bioengineering.illinois.edu/people/varatha2">
-                Yogatheesan Varatharajah
-              </a>
-            </p>
-          </td>
-          </tr>
-          <tr>
-            <td>
-              <p>
-                Contact: 
-              </p>
-            </td>
-          </tr>
-    </tbody>
-  </table>
-</div>
-
 
 {%- if site.data.conf.others.links.use_rows_as_link -%}{%- assign hover_class = "table-hover" -%}{%- endif -%}
 {%- for category in links_data.category %}
-{% if category.type != "id_professor" %}
 <div class="multipurpose-container link-container" id="{{ category.type }}" style="border-left-color:{{ category.color }};">
   <h2>{{ category.title }}</h2>
   <table class="table {{ hover_class }}">
@@ -69,20 +31,37 @@ layout: default
           {%- assign link_onclick = nil -%}
           {%- capture link_url -%} <a href="{{ list.url }}" target="_blank" rel="noopener noreferrer"><b>{{ list.title }}</b></a> {%- endcapture -%}
         {%- endif %}
+
+
+
         <tr class="link-item" {{ link_onclick }}>
           <td>
-            <p>
-              <img src={{list.img_url}}>
-            </p>
+            <p><b>Lecture</b></p>
           </td>
           <td>
-            <p>{{ link_url }}</p>
-            <p>{{ list.info}}</p>
+            <p>{{ list.lecture }}</p>
+          </td>
+        </tr>
+
+        <tr class="link-item" {{ link_onclick }}>
+          <td>
+            <p><b>Lab</b></p>
+          </td>
+          <td>
+            <p>{{ list.lab }}</p>
+          </td>
+        </tr>
+
+        <tr class="link-item" {{ link_onclick }}>
+          <td>
+            <p><b>Machine Problem</b></p>
+          </td>
+          <td>
+            <p>{{ list.mp }}</p>
           </td>
         </tr>
       {%- endfor %}
     </tbody>
   </table>
 </div>
-{% endif %}
 {% endfor %}

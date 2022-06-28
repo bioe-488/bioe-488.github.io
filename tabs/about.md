@@ -32,6 +32,41 @@ img: "/assets/img/default/bioe.jpg"
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
 #published: false
+
+page_data:
+  main:
+    header: "Course Staff"
+    info: "BIOE 488"
+
+  # To change order of the Categories, simply change order. (you don't need to change list order.)
+  category:
+    - title: "Professor"
+      type: id_professor
+      color: "gray"
+    - title: "Teaching Assistants"
+      type: id_teaching_assistants
+      color: "#F4A273"
+    # - title: "Programming"
+    #   type: id_programming
+    #   color: "#62b462"
+
+  list:
+    -
+    # Professor info is hard-coded in _layouts/about.md
+    # - type: id_professor
+    #   title: "Yogatheesan Varatharajah"
+    #   url: "https://bioengineering.illinois.edu/people/varatha2"
+    #   info: ""
+
+    # jekyiiliquid
+    - type: id_teaching_assistants
+      title: "Name of TA"
+      url: "about:blank"
+      info: "Your Teaching Assistant"
+      img_url: "https://i0.wp.com/bdn-data.s3.amazonaws.com/uploads/2021/04/US-April-the-Giraffe-1.jpg"
+
+
+
 ---
 
 # Course Staff
