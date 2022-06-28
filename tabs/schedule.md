@@ -79,7 +79,7 @@ page_data:
     #   info: ""
     - title: "Week 1"
       type: id_week1
-      lecture: "Introduction to BIOE 488"
+      lecture: "Intro to BIOE 488"
       lab: "HAL Tutorial; GIT for Labs and MPs; Python basic tutorial"
       mp: ""
     - title: "Week 2"
