@@ -11,8 +11,7 @@
 
     function openURL(url) {
       let link = document.createElement('a');
-      //link.target = "_blank";
-      link.target = "_self";
+      link.target = "_blank";
       link.href = url;
       link.rel = "noopener noreferrer";
       document.body.appendChild(link);
