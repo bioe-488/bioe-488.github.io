@@ -56,6 +56,9 @@ page_data:
     - title: "Git"
       type: id_git
       color: "#62b462"
+    - title: "HAL"
+      type: id_hal
+      color: "orange"
 
   list:
     -
@@ -69,5 +72,9 @@ page_data:
       title: "Git Tutorial"
       url: "about:blank"
       info: "GIT Basics"
-
+      
+    - type: id_hal
+      title: "HAL Tutorial"
+      url: "https://bioe-488.github.io/posts/2022-07-04-HAL_tutorial"
+      info: "HAL setup tutorial"
 ---
