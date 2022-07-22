@@ -39,6 +39,9 @@ date: 2022-06-21 15:00:00 -0600
 ---
 
 First: Git clone your repo.
+```git clone https://github.com/illinois-bioe/fa22_bioe488_NETID.git bioe488git```
+
+Here you can use any other name instead of `bioe488git`.
 
 Second. Checkout the MP release branch
 ``` git fetch ```
