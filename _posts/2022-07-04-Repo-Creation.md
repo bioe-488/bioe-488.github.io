@@ -1,8 +1,8 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 
-lng_pair: mp_checkout_instructions
-title: MP Checkout & Submit Instructions
+lng_pair: git_repo_creation
+title: Git Repo Creation
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -40,7 +40,7 @@ date: 2022-07-22 15:00:00 -0600
 
 First make sure you have a git account associated with the illinois email.
 
-Goto: https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/
+Goto this link: [https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/](https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/)
 
 Follow the prompts to create your BIOE488 repo for the Fall 2022 semester. This
 URL will take them to login via Shibboleth with their UIUC credentials.
