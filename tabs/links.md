@@ -69,12 +69,22 @@ page_data:
       info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
     - type: id_git
-      title: "Git Tutorial"
-      url: "about:blank"
-      info: "GIT Basics"
+      title: "Git and Version Control"
+      url: "https://www.atlassian.com/git/tutorials/what-is-version-control"
+      info: "An in-depth tutorial on Git and version control."
+      
+    - type: id_python
+      title: "Python Tutorial"
+      url: "https://docs.python.org/3/tutorial/"
+      info: "Official Python documentation."
       
     - type: id_hal
       title: "HAL Tutorial"
       url: "https://bioe-488.github.io/posts/2022-07-04-HAL_tutorial"
       info: "HAL setup tutorial"
+      
+      - type: id_gpu_computing
+      title: "GPU Computing in Python"
+      url: "https://thedatafrog.com/en/articles/boost-python-gpu/"
+      info: "Using GPUs within Python"
 ---
