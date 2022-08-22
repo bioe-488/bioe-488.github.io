@@ -44,6 +44,9 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
+    - title: "Canvas"
+      type: id_canvas
+      color: "black"
     - title: "Programming"
       type: id_programming
       color: "blue"
@@ -62,7 +65,12 @@ page_data:
 
   list:
     -
-    # programming
+    
+    - type: id_canvas
+      title: "Canvas"
+      url: "https://canvas.illinois.edu/courses/24309"
+      info: "We will use Canvas for uploading course material, discussions, and for major announcements."
+    
     - type: id_programming
       title: "Stack OverFlow"
       url: "https://stackoverflow.com/"
@@ -83,7 +91,7 @@ page_data:
       url: "https://bioe-488.github.io/posts/2022-07-04-HAL_tutorial"
       info: "HAL setup tutorial"
       
-      - type: id_gpu_computing
+    - type: id_gpu_computing
       title: "GPU Computing in Python"
       url: "https://thedatafrog.com/en/articles/boost-python-gpu/"
       info: "Using GPUs within Python"
