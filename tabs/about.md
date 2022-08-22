@@ -40,7 +40,7 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Professor"
+    - title: "Instructor"
       type: id_professor
       color: "gray"
     - title: "Teaching Assistants"
@@ -57,6 +57,7 @@ page_data:
       title: "Yogatheesan Varatharajah"
       url: "https://bioengineering.illinois.edu/people/varatha2"
       info: "Office Hours: Mondays 3.30pm - 4.30pm (Everitt Lab 3213)"
+      img_url: "https://ws.engr.illinois.edu/directory/viewphoto.aspx?photo=13122&s=300"
 
     # jekyiiliquid
     - type: id_teaching_assistants
