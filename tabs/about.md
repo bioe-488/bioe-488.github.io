@@ -53,17 +53,17 @@ page_data:
   list:
     -
     # Professor info is hard-coded in _layouts/about.md
-    # - type: id_professor
-    #   title: "Yogatheesan Varatharajah"
-    #   url: "https://bioengineering.illinois.edu/people/varatha2"
-    #   info: ""
+    - type: id_professor
+      title: "Yogatheesan Varatharajah"
+      url: "https://bioengineering.illinois.edu/people/varatha2"
+      info: "Office Hours: Mondays 3.30pm - 4.30pm (Everitt Lab 3213)"
 
     # jekyiiliquid
     - type: id_teaching_assistants
-      title: "Name of TA"
-      url: "about:blank"
-      info: "Your Teaching Assistant"
-      img_url: "https://i0.wp.com/bdn-data.s3.amazonaws.com/uploads/2021/04/US-April-the-Giraffe-1.jpg"
+      title: "Neeraj Wagh"
+      url: "https://neerajwagh.com/"
+      info: "Office Hours: Wednesdays 3.30pm - 4.30pm (Everitt Lab 3213)"
+      img_url: "https://neerajwagh.com/wp-content/uploads/2020/11/IMG_20181119_150322588-01-e1605671884992-291x300.jpeg"
 
 
 
