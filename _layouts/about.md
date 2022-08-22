@@ -83,5 +83,4 @@ layout: default
     </tbody>
   </table>
 </div>
-{% endif %}
 {% endfor %}
