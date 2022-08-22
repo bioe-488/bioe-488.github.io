@@ -38,7 +38,7 @@ date: 2022-07-22 15:00:00 -0600
 #published: false
 ---
 
-First make sure you have a git account associated with the illinois email.
+First make sure you have a git account.
 
 Goto this link: [https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/](https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/)
 
