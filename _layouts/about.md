@@ -21,38 +21,6 @@ layout: default
   </div> -->
 </div>
 
-<div class="multipurpose-container link-container" id="{{ category.type }}" style="border-left-color:{{ category.color }};">
-  <h2>Instructor</h2>
-  <table>
-    <tbody>
-        <tr>
-          <td>
-            <p>
-              <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=109962&s=300&type=portrait" width="30%" height="30%">
-            </p>
-          </td>
-          </tr>
-          <tr>
-          <td>
-            <p>
-              <a href="https://bioengineering.illinois.edu/people/varatha2">
-                Yoga Varatharajah
-              </a>
-            </p>
-          </td>
-          </tr>
-          <tr>
-            <td>
-              <p>
-                Contact: varatha[number 2]@illinois[dot]edu
-              </p>
-            </td>
-          </tr>
-    </tbody>
-  </table>
-</div>
-
-
 {%- if site.data.conf.others.links.use_rows_as_link -%}{%- assign hover_class = "table-hover" -%}{%- endif -%}
 {%- for category in links_data.category %}
 <div class="multipurpose-container link-container" id="{{ category.type }}" style="border-left-color:{{ category.color }};">
