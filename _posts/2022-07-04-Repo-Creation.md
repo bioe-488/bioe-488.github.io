@@ -43,6 +43,6 @@ First make sure you have a git account.
 Goto this link: [https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/](https://edu.cs.illinois.edu/create-gh-repo/fa22_bioe488/)
 
 Follow the prompts to create your BIOE488 repo for the Fall 2022 semester. This
-URL will take them to login via Shibboleth with their UIUC credentials.
+URL will take you to login via Shibboleth using your UIUC credentials.
 
-Once created, the path to your repo will have the form: https://github.com/illinois-bioe/fa22_bioe488_NETID.git
+Once created, the path to your repo will have the form: https://github.com/illinois-bioe/fa22_bioe488_<YOUR NETID>.git
